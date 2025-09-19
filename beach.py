@@ -60,6 +60,7 @@ turtle.begin_fill()
 turtle.fillcolor("yellow")
 turtle.circle(8)
 turtle.end_fill()
+
 turtle.penup()
 turtle.goto(90, 25) 
 turtle.pendown()
@@ -67,6 +68,7 @@ turtle.begin_fill()
 turtle.fillcolor("yellow")
 turtle.circle(8)
 turtle.end_fill()
+
 turtle.penup()
 turtle.goto(100, 15) 
 turtle.pendown()
@@ -140,6 +142,12 @@ turtle.forward(15)
 turtle.right(90)
 turtle.end_fill()
 
-
-
-turtle.done()
+turtle.shape('turtle')
+turtle.penup()
+turtle.goto(-50 ,-50)
+turtle.pendown()
+turtle.color('green')
+turtle.stamp()
+   
+#черепаха
+turtle.done() 
