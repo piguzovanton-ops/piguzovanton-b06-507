@@ -4,7 +4,7 @@ import turtle
 screen = turtle.Screen()
 screen.bgcolor("lightblue") 
 
-turtle.speed(5)
+turtle.speed(0)
 
 #пляж
 turtle.penup()
@@ -139,6 +139,7 @@ turtle.right(90)
 turtle.forward(15)
 turtle.right(90)
 turtle.end_fill()
+
 
 
 turtle.done()
