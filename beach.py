@@ -291,6 +291,7 @@ turtle.setheading(0)
 turtle.pendown()
 turtle.color('green')
 
+turtle.hide()
 
 
 
@@ -298,3 +299,4 @@ turtle.color('green')
 
 
 turtle.done() 
+
